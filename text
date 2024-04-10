@@ -1,0 +1,32 @@
+#include "pch.h"
+#include "CppUnitTest.h"
+#include"../max/max0001.h"
+
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace UnitTest1
+{
+	TEST_CLASS(UnitTest1)
+	{
+	public:
+		
+		TEST_METHOD(TestMethod1)
+		{
+			int a[] = { -2, 11, -4, 13, -5, -2 };
+			int n = sizeof(a) / sizeof(a[0]);
+
+		}
+		TEST_METHOD(TestMethod2)
+		{
+			int a[] = { 1, 2, 3, 4, 5 };
+			int n = sizeof(a) / sizeof(a[0]);
+
+		}
+		TEST_METHOD(TestMethod3)
+		{
+			int a[] = { -1, -2, -3, -4, -5 };
+			int n = sizeof(a) / sizeof(a[0]);
+
+		}
+	};
+}
